@@ -1,2 +1,5 @@
 a, b = map(int, input().split(' '))
-print(f'{a} + {b} = {a+b}')
+def add(a, b):
+    return (f'{a} + {b} = {a+b}')
+
+print(add(a, b))
